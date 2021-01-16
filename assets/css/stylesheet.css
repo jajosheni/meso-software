@@ -71,16 +71,21 @@ main {
     color: white;
 }
 
-.regjistrohu-p{
+.regjistrohu-p {
     text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
+    h1 {
+        border-bottom: solid 2px #292929;
+        width: min-content;
+    }
+
     .slogan {
         font-size: 34px;
     }
 
-    .regjistrohu-p{
+    .regjistrohu-p {
         margin: 50px auto 10px;
     }
 
@@ -88,8 +93,7 @@ main {
         font-size: 0.8em;
     }
 
-    h1 {
-        border-bottom: solid 2px #292929;
-        width: min-content;
+    footer {
+        border-top: solid 1px #292929;
     }
 }
