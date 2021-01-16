@@ -48,7 +48,7 @@ main {
 
 .slogan {
     display: block;
-    font-size: xxx-large;
+    font-size: 48px;
     margin: 5px;
 }
 
@@ -69,4 +69,27 @@ main {
 .regjistrohu-container > a:hover {
     background: black;
     color: white;
+}
+
+.regjistrohu-p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .slogan {
+        font-size: 34px;
+    }
+
+    .regjistrohu-p{
+        margin: 50px auto 10px;
+    }
+
+    .regjistrohu-container > a {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        border-bottom: solid 2px #292929;
+        width: min-content;
+    }
 }
