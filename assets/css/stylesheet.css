@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: white;
+    height: 100%;
+}
+
+body {
+    min-width: 360px;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+main {
+    font-family: 'Yusei Magic', sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+}
+
+.slogan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.slogan {
+    display: block;
+    font-size: xxx-large;
+    margin: 5px;
+}
+
+.regjistrohu-container {
+    margin-top: 20px;
+}
+
+.regjistrohu-container > a {
+    color: black;
+    cursor: pointer;
+    background: whitesmoke;
+    border-radius: 15px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.regjistrohu-container > a:hover {
+    background: black;
+    color: white;
+}
