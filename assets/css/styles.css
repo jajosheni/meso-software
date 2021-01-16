@@ -75,6 +75,12 @@ main {
     text-align: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
         border-bottom: solid 2px #292929;
