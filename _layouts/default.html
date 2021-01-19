@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.00">
     <meta http-equiv='content-type' content='text/html; charset=UTF-8'>
@@ -7,20 +7,36 @@
           content="meso programim, meso software, meso web development, zhvillim programesh">
     <meta name="keywords"
           content="site,developer,web,desktop,mobile,reliable,tirana,albania,github,pages,shqiperi,tirane,zhvillim,programesh,profesional,sherbim,software">
-    <link href="" rel="shortcut icon" type="favicon.ico">
+    <link href="../favicon.ico" rel="shortcut icon" type="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../assets/css/full-page-scroll.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
-    <title>Mëso si të programosh</title></head>
+    <title>Mëso si të programosh</title>
+</head>
 <body>
-<main role="main">
-    <header>
-        <div class="logo">
-            <h1>mëso.software</h1>
+<div id="main" class="scroll-container">
+    <section class="section1">
+        <div>
+            <span class="slogan">Mëso të programosh sot, fito shumë në mot.</span>
         </div>
-    </header>
-    <div class="slogan-container">
-        <span class="slogan">Mëso të programosh sot, fito shumë në mot.</span>
+    </section>
+    <section class="section2">
+        <div>
+            <span>HTML, CSS & JAVASCRIPT</span>
+            <span class="subtitle">Vetëm 6 muaj për tu bërë Front End Developer</span>
+        </div>
+    </section>
+    <section class="section3">
+        <div>
+            <span>Kursi fillon më 1 Shkurt, 2021.</span>
+            <span class="subtitle">Adresa: Rruga e Qelqit, Kombinat</span>
+        </div>
+    </section>
+    <section class="section4">
+        <div>
+            <span>regjistrohu</span>
+        </div>
         <div class="regjistrohu-container">
-            <p class="regjistrohu-p">regjistrohu: </p>
             <a href="mailto:shen.i@live.com?subject=Regjistrohu&body=Pashë njoftimin tuaj për kursin e programimit,%0A%0A">
                 dërgo një e-mail
             </a>
@@ -28,16 +44,23 @@
                 dërgo një mesazh
             </a>
         </div>
-    </div>
-    <footer>
-        <div class="info">
-            <p>Kurset fillojnë më 1 Shkurt, 2021.</p>
-            <p>Adresa: Rruga e Qelqit, Kombinat</p>
+    </section>
+    <section class="section5">
+        <div>
+            <span class="subtitle">Për më shume informacion, vizitoni
+            <a href="https://shemehamitaj.com" target="_blank">faqen personale</a>.</span>
         </div>
-        <div class="right-note">
-            <a href="https://shemehamitaj.com">>_ shemehamitaj.com</a>
-        </div>
-    </footer>
-</main>
+    </section>
+</div>
+<script src="../assets/javascript/full-page-scroll.js"></script>
+<script type="text/javascript">
+  new fullScroll({
+    mainElement: 'main',
+    displayDots: true,
+    dotsPosition: 'left',
+    animateTime: 0.7,
+    animateFunction: 'ease',
+  });
+</script>
 </body>
 </html>
